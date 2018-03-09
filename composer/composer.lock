@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "204ea511e9c446024d527dcbe22b7f85",
+    "packages": [
+        {
+            "name": "sadok-f/docker-secrets",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sadok-f/docker-secrets.git",
+                "reference": "9cd1da5a7ed8ef3f429f4d69edaaba9ce3e9f1f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sadok-f/docker-secrets/zipball/9cd1da5a7ed8ef3f429f4d69edaaba9ce3e9f1f0",
+                "reference": "9cd1da5a7ed8ef3f429f4d69edaaba9ce3e9f1f0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "0.4.4",
+                "phpunit/phpunit": "4.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DockerSecrets\\": "src\\DockerSecrets"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sadok Ferjani",
+                    "email": "sadoknet@gmail.com",
+                    "homepage": "http://sadokferjani.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple PHP library to read docker secrets.",
+            "homepage": "https://github.com/sadok-f/docker-secrets",
+            "keywords": [
+                "docker secret",
+                "docker secrets",
+                "php",
+                "php docker secrets"
+            ],
+            "time": "2017-10-20T15:35:52+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

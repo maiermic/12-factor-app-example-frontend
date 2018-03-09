@@ -1,0 +1,5 @@
+{
+    "require": {
+        "sadok-f/docker-secrets": "^1.0"
+    }
+}
