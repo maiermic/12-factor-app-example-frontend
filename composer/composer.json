@@ -1,5 +1,6 @@
 {
     "require": {
-        "sadok-f/docker-secrets": "^1.0"
+        "sadok-f/docker-secrets": "^1.0",
+        "guzzlehttp/guzzle": "^6.3"
     }
 }
